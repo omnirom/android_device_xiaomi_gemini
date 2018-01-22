@@ -33,8 +33,6 @@ TARGET_BOOTANIMATION_SIZE := 1080p
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := omni_gemini
 PRODUCT_DEVICE := gemini
