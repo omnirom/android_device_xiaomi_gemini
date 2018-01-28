@@ -1,6 +1,12 @@
 [
   {
     "remote": "omnirom",
+    "repository": "android_device_xiaomi_msm8996-common",
+    "target_path": "device/xiaomi/msm8996-common",
+    "revision": "android-8.1"
+  },
+  {
+    "remote": "omnirom",
     "repository": "android_hardware_qcom_display-caf-msm8996",
     "target_path": "hardware/qcom/display-caf-msm8996",
     "revision": "android-8.1"
